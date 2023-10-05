@@ -1,0 +1,250 @@
+
+*{
+    margin:5px;
+    font-family:'Times New Roman', Times, serif;
+}
+  .nav{
+    height: 50px;
+    background-color:  #98FB98;
+    width:100%;
+    border: 3px solid rgb(214, 146, 37);
+    height: 50px;
+    padding-top: 15px;
+    display:flex;
+    justify-content: space-around;  
+    font-size:15px;
+
+  }
+  
+.nav a {
+    color: rgb(51, 89, 178);
+
+}
+#About{
+  height: auto;
+  width: 100%;
+  font-size: 20px;
+  border: 3px solid rgb(214, 146, 37);
+  color: rgb(51, 89, 178);
+}
+  .About1{
+    display: flex;
+    padding:50px;
+    text-align: justify;
+    font-size:20px;
+  }
+  p{
+    text-align: justify;
+  }
+  
+  .About2{
+    height: auto;
+    width: 400px;
+    text-align:center;
+    font-size:50px;
+  }
+
+  .about{
+    height: 350px;
+    background-color: #E0FFFF;
+    color: #06010e;
+    display: inline-block
+  }
+  img{
+    border: 3px solid rgb(31, 68, 215);
+  }
+ 
+  #Papers{
+    height:auto;
+    width: 100%;
+    border: 3px solid rgb(214, 146, 37);
+    background-color: #FFF5EE;
+    color:rgb(51, 89, 178);
+    font-size:20px;
+
+  }
+  .paper1{
+      padding:20px;
+      display:grid;
+      grid-gap:1rem;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      font-size:20px;
+
+  }
+  .paper1:hover {
+    border: 3px solid red; 
+  }
+  #Hobbies{ 
+    height:auto;
+    background-color: #F0FFF0;
+    width:100%;
+    border: 3px solid rgb(214, 146, 37);
+    color: rgb(51, 89, 178);
+    font-size:20px;
+  }
+
+.hob {
+  padding:20px;
+  height:auto;
+  text-align:center;
+  display:grid;
+  grid-gap: 1rem;
+  align-content:center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  font-size:20px;
+}
+.hobbies1 {
+    padding:20px;
+    height:auto;
+    text-align:center;
+    display:flex;
+    grid-gap: 1rem;
+    align-content:center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size:20px;
+  }
+
+  #Experience{
+    height:auto;
+    width:100%;
+    background-color: #ece1e5;
+    font-size: 20px;
+    border: 3px solid rgb(214, 146, 37);
+    color: rgb(51, 89, 178);
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td, th {
+    border: 1px solid rgb(214, 146, 37);
+    text-align: left;
+    padding: 8px;
+  }
+  #Blogs{
+    height:auto;
+    background-color: #e4f578;
+    width:100%;
+    font-size: 20px;
+    border: 3px solid rgb(214, 146, 37);
+    font-size:20px;
+
+  }
+  .blogs1 {
+    padding:10px;
+  }
+  @media only screen and (max-width: 700px) {
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .about {
+      justify-content: space-around;
+      align-items: center;
+      align-content: center;
+    }
+      .About1 {
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .About2 {
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+      }
+    .experiences {
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+      }
+      .hobbies {
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+      }
+      .papers {
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+      }
+      .hob{
+        display: grid;
+        grid-gap:1rem;
+        justify-content: space-around;
+        align-items: center;
+        grid-template-columns: 1fr;
+        align-content:center;
+    }
+    .paper1 {
+        display:grid;
+        grid-gap:1rem;
+        text-align: center;
+        grid-template-columns: 1fr;
+        align-content:center;
+      }
+
+      .blogs1 {
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+      }
+}
+
+@media only screen and (max-width: 1400px) {
+    .paper1 {
+        display:grid;
+        grid-gap:1rem;
+        text-align: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      }
+}
+@media only screen and (max-width: 1100px) {
+      .paper1 {
+        display:grid;
+        grid-gap:1rem;
+        text-align: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+      .hob{
+        display: grid;
+        grid-gap:1rem;
+        justify-content: space-around;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      }
+ 
+}
+
+@media only screen and (max-width: 900px) {
+      .hob {
+        display: grid;
+        grid-gap:1rem;
+        justify-content: space-around;
+        align-items: center;
+        grid-template-columns: 1fr 1fr ;
+      }
+    }
+@media only screen and (max-width: 700px) {
+    .hob{
+        display: grid;
+        grid-gap:1rem;
+        justify-content: space-around;
+        align-items: center;
+        grid-template-columns: 1fr;
+        align-content: center;
+    }
+    .paper1 {
+        display:grid;
+        grid-gap:1rem;
+        text-align: center;
+        grid-template-columns: 1fr;
+        align-content: center;
+      }
+    }
+    body{
+        background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg);
+    }
+    
